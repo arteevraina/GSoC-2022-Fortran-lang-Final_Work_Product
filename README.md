@@ -222,3 +222,6 @@ macros = [
 | Week 15 <br> (05-09-2022) | [# Blog 15](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-15/4266) |
 
 #### Link to the [Weekly Meeting Notes](https://fortran-lang.discourse.group/t/gsoc-meeting-notes-fpm-ize-the-fortran-ecosystem/3641).
+
+## Acknowledgement
+I would like to thank my mentors [Sebastian Ehlert](https://github.com/awvwgk), [Milan Curcic](https://github.com/milancurcic), [Laurence Kedward](https://github.com/LKedward), [Jeremie Vandenplas](https://github.com/jvdp1), [Zoziha](https://github.com/zoziha) and other community members as well because of their support I was able to progress and complete my objectives. They also helped me in understanding some crucial parts of Fortran code whenever I felt stuck while solving issues. They always responsded to my queries whether it was related to code or anything related to program. While contributing to this project, I learned a lot about writing Fortran, writing maintainable and clean code. I look forward to keep contributing to the project even after the completion of GSoC program because of great learning experience that I have had while contributing to this organization and will continue to have.
