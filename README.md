@@ -200,3 +200,25 @@ macros = [
 | [Updated Example Readme #740](https://github.com/fortran-lang/fpm/pull/740) | <ul><li>Updated the [``README.md``](https://github.com/fortran-lang/fpm/blob/main/example_packages/README.md) of example packages.</li></ul> |
 | [Remove unnecessary space in fpm new cmd #684](https://github.com/fortran-lang/fpm/pull/684) | <ul><li>This Pull Request removed leading space in fpm new command.</li></ul>
 | [Remove extra space from help-test cmd #686](https://github.com/fortran-lang/fpm/pull/686) | <ul><li>This is a similar fix as [#684](https://github.com/fortran-lang/fpm/pull/684) but for help-test.</li></ul>
+
+## Weekly Blogs
+
+| Week | Blog Links |
+|----|----|
+| Week 1 <br> (23-05-2022) | [# Blog 1](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-1/3521)|
+| Week 2 <br> (30-05-2022) | [# Blog 2](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-2/3601) |
+| Week 3 <br> (06-06-2022) | [# Blog 3](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-3/3669) |
+| Week 4 <br> (20-06-2022) | [# Blog 4](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-4/3803) |
+| Week 5 <br> (27-06-2022) | [# Blog 5](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-5/3843) |
+| Week 6 <br> (04-07-2022) | [# Blog 6](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-6/3911) |
+| Week 7 <br> (11-07-2022) | [# Blog 7](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-7/3975) |
+| Week 8 <br> (18-07-2022) | [# Blog 8](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-8/4020) |
+| Week 9 <br> (25-07-2022) | [# Blog 9](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-9/4069) |
+| Week 10 <br> (01-08-2022) | [# Blog 10](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-10/4107) |
+| Week 11 <br> (08-08-2022) | [# Blog 11](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-11/4133) |
+| Week 12 <br> (15-08-2022) | [# Blog 12](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-12/4171) |
+| Week 13 <br> (22-08-2022) | [# Blog 13](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-13/4198) |
+| Week 14 <br> (29-08-2022) | [# Blog 14](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-14/4229) |
+| Week 15 <br> (05-09-2022) | [# Blog 15](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-15/4266) |
+
+#### Link to the [Weekly Meeting Notes](https://fortran-lang.discourse.group/t/gsoc-meeting-notes-fpm-ize-the-fortran-ecosystem/3641).
