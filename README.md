@@ -181,7 +181,7 @@ macros = [
 
 ## Objectives Left 
 
-* The compiler wrapper script inside fypp-gfortran.py is still a temporary solution for adding ```fypp`` support in the fpm. In long term, we have planned to inject this script inside ``fpm`` and ```fpm``` should be able to handle the ``fypp`` preprocessing on its own without any external wrapper script.
+* The compiler wrapper script inside fypp-gfortran.py is still a temporary solution for adding ```fypp``` support in the fpm. In long term, we have planned to inject this script inside ``fpm`` and ```fpm``` should be able to handle the ``fypp`` preprocessing on its own without any external wrapper script.
 
 * Hashing of included files to detect changes.
 
