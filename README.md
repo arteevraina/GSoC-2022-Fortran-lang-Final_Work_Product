@@ -16,19 +16,6 @@ Fortran Package Manager is  a build system and a package manager for Fortran pro
 
  My project motive was to fpm-ize the Fortran Ecosystem by making the packages that are available in the Fortran Ecosystem fpm compatible. So, we had two ways to achieve this objective one was to work on the packages directly and change the code there but on the other hand we had another way to implement new features inside fpm only and lower the bar for the packages that use preprocessing extensively to get fpm compatible. So, I took up the problem to implement preprocessing support in Fortran Package Manager during the first week of community bonding itself so that I have enough time in understanding the project and its requirements. 
 
-<!-- ## Objectives Completed
-* Add support for preprocessor configuration in ```fpm.toml``` file.
-* Add compiler flag for C Preprocessing,
-* Add ability to read and parse the macros defined in the ```fpm.toml``` file.
-* Ability to reuse the values like version number defined in ```fpm.toml``` file inside valued macros.
-* Make the macro definitions local to the package type.
-* Add support for compiling C++ files using fpm.
-
-
-## Objectives in Progress
-* Implement comipler wrapper script that adds ```fypp``` Python powered Fortran metaprogramming preprocessing support on demand and compiles ```stdlib``` project using fpm.
-* Modify the structure of ```stdlib``` so that to get it compiled using compiler wrapper script implemented in fpm. -->
-
 ## Objectives Completed
 
 ### Added support for defining preprocessor table inside ```manifest``` file.
@@ -63,7 +50,7 @@ The ```preprocess_config_t``` that is the type for preprocessor table defined in
 
 ### Added ablility inside fpm to add C Preprocessing compiler flag
 
-In this task, I implemented the feature in fpm to add C Preprocessing flag if cpp preprocessor table is defined in fpm.toml file. The necessary condition inside the subroutine ```set_preprocessor_flags``` which handles this is as follows :
+In this task, I implemented the feature in fpm to add C Preprocessing flag if cpp preprocessor table is defined in ``fpm.toml`` file. The necessary condition inside the subroutine ```set_preprocessor_flags``` which handles this is as follows :
 
 ```Fortran
 do i = 1, size(package%preprocess)
@@ -141,7 +128,7 @@ case (FPM_UNIT_PROGRAM)
 ```
 
 * Tests in the stdlib used functions that were defined in C++ files and fpm could not compile C++ files.
-* We were not skipping some tests defined in ``test_mean_f03.fypp`` if the supported MAXRANK was not there. 
+* We were not skipping some tests defined in ``test_mean_f03.fypp`` if the supported MAXRANK was not provided. 
 
 ### Add support for compiling C++ files inside fpm.
 
@@ -180,7 +167,7 @@ macros = [
 
 ## Objectives Left 
 
-* The compiler wrapper script inside fypp-gfortran.py is still a temporary solution for adding ```fypp``` support in the fpm. In long term, we have planned to inject this script inside ``fpm`` and ```fpm``` should be able to handle the ``fypp`` preprocessing on its own without any external wrapper script.
+* The compiler wrapper script inside ``fypp-gfortran.py`` is still a temporary solution for adding ```fypp``` support in the fpm. In long term, we have planned to inject this script inside ``fpm`` and ```fpm``` should be able to handle the ``fypp`` preprocessing on its own without any external wrapper script.
 
 * Hashing of included files to detect changes.
 
@@ -192,9 +179,9 @@ macros = [
 |----|----|
 | [Added Basic Preprocess Table Configuration #715](https://github.com/fortran-lang/fpm/pull/715) | <ul><li>Adds a preprocess table configuration.</li><li>Add a compiler flag when ``[preprocess.cpp]`` is found in ``manifest`` file.</li></ul>|
 | [Ability to parse and read macros from manifest #720](https://github.com/fortran-lang/fpm/pull/720) | <ul><li>Ability to read macros from the manifest.</li><li>Ability to reuse values like version number from manifest as a value for a macro.</li><li>Fix to keep  the macros package local.</li></ul> |
-| [Added Compiler Wrapper script for Preprocessing using fypp #729](https://github.com/fortran-lang/fpm/pull/729) | <ul><li>Adds a compiler wrapper script for preprocessing the .``fypp`` files and storing them inside the build directory.</li><li>Makes the macros defined in manifest available while running tests.</li></ul> |
+| [Added Compiler Wrapper script for Preprocessing using fypp #729](https://github.com/fortran-lang/fpm/pull/729) | <ul><li>Adds a compiler wrapper script for preprocessing the ``fypp`` files and storing them inside the build directory.</li><li>Makes the macros defined in manifest available while running tests.</li></ul> |
 | [Added support for C++ files compilation #733](https://github.com/fortran-lang/fpm/pull/733) | <ul><li>Adds support for C++ files compilation.</li></ul> |
-| [Structural Change in Stdlib #675](https://github.com/fortran-lang/stdlib/pull/675) | <ul><li>Adds a manifest file.</li><li>Skip Tests when ``MAXRANK`` is not supported.</li><li>Fix failing CI.</li></ul> |
+| [Structural Change in Stdlib #675](https://github.com/fortran-lang/stdlib/pull/675) | <ul><li>Adds a manifest file.</li><li>Rename sub modules with same name.</li><li>Skip Tests when ``MAXRANK`` is not supported.</li><li>Fix failing CI.</li></ul> |
 | [Added Documentation for Preprocess Table #60](https://github.com/fortran-lang/fpm-docs/commit/fb0117e9890cceb96c0ad669e03f3591e57d3c8e) | <ul><li>Added documentation for ``preprocess`` table that can be defined in ``fpm.toml`` file.</li></ul> |
 | [Updated Example Readme #740](https://github.com/fortran-lang/fpm/pull/740) | <ul><li>Updated the [``README.md``](https://github.com/fortran-lang/fpm/blob/main/example_packages/README.md) of example packages.</li></ul> |
 | [Remove unnecessary space in fpm new cmd #684](https://github.com/fortran-lang/fpm/pull/684) | <ul><li>This Pull Request removed leading space in fpm new command.</li></ul>
