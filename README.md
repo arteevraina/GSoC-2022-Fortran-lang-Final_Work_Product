@@ -1,4 +1,6 @@
-<center><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" alt="gsoc" height="50"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<center><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" alt="gsoc" height="50"/>
+</center>
+<center>
 <img src="https://summerofcode.withgoogle.com/media/org/fortran-lang/ay9se7mc6vgdwgbn-360.png" height="45"/>
 </center>
 
