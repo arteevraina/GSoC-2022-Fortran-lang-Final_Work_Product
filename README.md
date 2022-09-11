@@ -8,6 +8,7 @@
 * **Organization** : Fortran-lang
 * **Project** : fpm-ize the Fortran ecosystem
 * **Mentors** : [Sebastian Ehlert](https://github.com/awvwgk), [Milan Curcic](https://github.com/milancurcic)
+* **Discourse Profile** : [Profile](https://fortran-lang.discourse.group/u/arteevraina/summary)
 
 ## Abstract
 
