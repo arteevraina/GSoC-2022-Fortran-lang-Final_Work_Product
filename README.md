@@ -208,6 +208,7 @@ macros = [
 | Week 13 <br> (22-08-2022) | [# Blog 13](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-13/4198) |
 | Week 14 <br> (29-08-2022) | [# Blog 14](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-14/4229) |
 | Week 15 <br> (05-09-2022) | [# Blog 15](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-15/4266) |
+| Week 16 <br> (11-09-2022) | [#Blog 16](https://fortran-lang.discourse.group/t/gsoc-22-fpm-ize-the-fortran-ecosystem-blog-post-by-arteev-raina-16/4295)
 
 #### Link to the [Weekly Meeting Notes](https://fortran-lang.discourse.group/t/gsoc-meeting-notes-fpm-ize-the-fortran-ecosystem/3641).
 
